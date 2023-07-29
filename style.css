@@ -163,3 +163,61 @@ nav .fa {
 
 
 }
+
+/* Course */
+
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 0.95rem;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.course-row {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+@media(max-width: 700px) {
+    .course-row {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
